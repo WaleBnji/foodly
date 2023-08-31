@@ -9,9 +9,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@layer components {
+  .wrapper{
+    padding: 1.5rem;
+  }
+  .fcc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fbc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fc{
+    display: flex;
+    align-items: center;
+  }
 }

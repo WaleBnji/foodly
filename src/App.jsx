@@ -1,9 +1,16 @@
 import './App.css';
+// import WalkThrough from './pages/WalkThrough';
+// import SignIn from './pages/SignIn';
+import CreateAccount from './pages/CreateAccount'
 
 function App() {
   return (
-    <h1 className='bg-red-500'>I am Olawale</h1>
-  );
+    <div className='wrapper'> 
+    <CreateAccount />
+    {/* <SignIn /> */}
+      {/* <WalkThrough /> */}
+    </div>
+    );
 }
 
 export default App;
